@@ -175,8 +175,8 @@
                                                 <i class="text-warning" data-feather="bell"></i>
                                             </div>
                                             <div class="col-10">
-                                                <div class="text-dark">Lorem ipsum</div>
-                                                <div class="text-muted small mt-1">Aliquam ex eros, imperdiet vulputate hendrerit et.</div>
+                                                <div class="text-dark">New report available</div>
+                                                <div class="text-muted small mt-1">Monthly sales report is ready to download.</div>
                                                 <div class="text-muted small mt-1">2h ago</div>
                                             </div>
                                         </div>
@@ -229,7 +229,7 @@
                                             </div>
                                             <div class="col-10 ps-2">
                                                 <div class="text-dark">Vanessa Tucker</div>
-                                                <div class="text-muted small mt-1">Nam pretium turpis et arcu.</div>
+                                                <div class="text-muted small mt-1">Can you review the latest dashboard changes?</div>
                                                 <div class="text-muted small mt-1">15m ago</div>
                                             </div>
                                         </div>
@@ -241,7 +241,7 @@
                                             </div>
                                             <div class="col-10 ps-2">
                                                 <div class="text-dark">William Harris</div>
-                                                <div class="text-muted small mt-1">Curabitur ligula sapien euismod vitae.</div>
+                                                <div class="text-muted small mt-1">The new feature is ready for testing.</div>
                                                 <div class="text-muted small mt-1">2h ago</div>
                                             </div>
                                         </div>
@@ -253,7 +253,7 @@
                                             </div>
                                             <div class="col-10 ps-2">
                                                 <div class="text-dark">Christina Mason</div>
-                                                <div class="text-muted small mt-1">Pellentesque auctor neque nec urna.</div>
+                                                <div class="text-muted small mt-1">Project update: milestone completed on time.</div>
                                                 <div class="text-muted small mt-1">4h ago</div>
                                             </div>
                                         </div>
@@ -265,7 +265,7 @@
                                             </div>
                                             <div class="col-10 ps-2">
                                                 <div class="text-dark">Sharon Lessman</div>
-                                                <div class="text-muted small mt-1">Aenean tellus metus, bibendum sed.</div>
+                                                <div class="text-muted small mt-1">Please send me the updated report when ready.</div>
                                                 <div class="text-muted small mt-1">5h ago</div>
                                             </div>
                                         </div>
