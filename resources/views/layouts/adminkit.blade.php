@@ -43,6 +43,13 @@
                         </a>
                     </li>
 
+                    <li class="sidebar-item {{ request()->routeIs('profile.edit') ? 'active' : '' }}">
+                        <a class="sidebar-link" href="{{ route('profile.edit') }}">
+                            <i class="align-middle" data-feather="settings"></i>
+                            <span class="align-middle">Settings</span>
+                        </a>
+                    </li>
+
                     <li class="sidebar-item {{ request()->routeIs('login') ? 'active' : '' }}">
                         <a class="sidebar-link" href="{{ route('login') }}">
                             <i class="align-middle" data-feather="log-in"></i>
@@ -96,7 +103,7 @@
 
                     <li class="sidebar-item {{ request()->routeIs('icons.feather') ? 'active' : '' }}">
                         <a class="sidebar-link" href="{{ route('icons.feather') }}">
-                            <i class="align-middle" data-feather="coffee"></i>
+                            <i class="align-middle" data-feather="feather"></i>
                             <span class="align-middle">Icons</span>
                         </a>
                     </li>
@@ -113,7 +120,7 @@
                     <li class="sidebar-item {{ request()->routeIs('maps.google') ? 'active' : '' }}">
                         <a class="sidebar-link" href="{{ route('maps.google') }}">
                             <i class="align-middle" data-feather="map"></i>
-                            <span class="align-middle">Maps</span>
+                            <span class="align-middle">Vector Maps</span>
                         </a>
                     </li>
                 </ul>
