@@ -280,19 +280,19 @@
             },
             options: {
                 maintainAspectRatio: false,
-                legend: { display: false },
-                tooltips: { intersect: false },
-                hover: { intersect: true },
-                plugins: { filler: { propagate: false } },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { intersect: false }
+                },
                 scales: {
-                    xAxes: [{ reverse: true, gridLines: { color: "rgba(0,0,0,0.0)" } }],
-                    yAxes: [{ ticks: { stepSize: 1000 }, display: true, borderDash: [3, 3], gridLines: { color: "rgba(0,0,0,0.0)" } }]
+                    x: { reverse: true, grid: { color: "rgba(0,0,0,0.0)" } },
+                    y: { ticks: { stepSize: 1000 }, display: true, grid: { color: "rgba(0,0,0,0.0)" } }
                 }
             }
         });
 
         new Chart(document.getElementById("chartjs-dashboard-pie"), {
-            type: "pie",
+            type: "doughnut",
             data: {
                 labels: ["Chrome", "Firefox", "IE"],
                 datasets: [{
@@ -302,10 +302,9 @@
                 }]
             },
             options: {
-                responsive: !window.MSInputMethodContext,
                 maintainAspectRatio: false,
-                legend: { display: false },
-                cutoutPercentage: 75
+                plugins: { legend: { display: false } },
+                cutout: "75%"
             }
         });
 
@@ -326,10 +325,10 @@
             },
             options: {
                 maintainAspectRatio: false,
-                legend: { display: false },
+                plugins: { legend: { display: false } },
                 scales: {
-                    yAxes: [{ gridLines: { display: false }, stacked: false, ticks: { stepSize: 20 } }],
-                    xAxes: [{ stacked: false, gridLines: { color: "transparent" } }]
+                    y: { grid: { display: false }, stacked: false, ticks: { stepSize: 20 } },
+                    x: { stacked: false, grid: { color: "transparent" } }
                 }
             }
         });
