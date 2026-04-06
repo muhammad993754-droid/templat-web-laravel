@@ -82,8 +82,8 @@
                     <h5 class="card-title mb-0">About</h5>
                 </div>
                 <div class="card-body h-100">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-                    <p class="mb-0">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                    <p>Welcome to my profile! I'm a full-stack developer passionate about building clean, efficient web applications. I specialize in Laravel, Vue.js, and modern front-end frameworks. I enjoy collaborating with teams to deliver high-quality products.</p>
+                    <p class="mb-0">When I'm not coding, I enjoy contributing to open-source projects, writing technical articles, and mentoring junior developers. Always looking for new challenges and opportunities to grow.</p>
                 </div>
             </div>
 
