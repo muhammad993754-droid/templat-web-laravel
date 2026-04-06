@@ -13,7 +13,7 @@
         "autoprefixer": "^10.4.2",
         "axios": ">=1.11.0 <=1.14.0",
         "bootstrap": "^5.3.3",
-        "chart.js": "^2.9.4",
+        "chart.js": "^4.4.4",
         "concurrently": "^9.0.1",
         "feather-icons": "^4.29.2",
         "flatpickr": "^4.6.13",

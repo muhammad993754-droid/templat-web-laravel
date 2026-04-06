@@ -1,6 +1,9 @@
 // Usage: https://www.chartjs.org/
-import Chart from "chart.js";
+import { Chart, registerables } from "chart.js";
 
-Chart.defaults.global.defaultFontColor = window.theme["gray-600"];
-Chart.defaults.global.defaultFontFamily = "'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif";
+Chart.register(...registerables);
+
+Chart.defaults.color = window.theme ? window.theme["gray-600"] : "#495057";
+Chart.defaults.font.family = "'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif";
+
 window.Chart = Chart;

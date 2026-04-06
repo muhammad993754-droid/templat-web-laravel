@@ -66,7 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
             labels: ["Jan","Feb","Mar","Apr","May","Jun","Jul"],
             datasets: [{ label: "Sales", borderColor: window.theme.primary, data: [65,59,80,81,56,55,40], fill: false }]
         },
-        options: { maintainAspectRatio: false }
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: true } }
+        }
     });
     new Chart(document.getElementById("chartjs-bar"), {
         type: "bar",
@@ -74,7 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
             labels: ["Jan","Feb","Mar","Apr","May","Jun","Jul"],
             datasets: [{ label: "Revenue", backgroundColor: window.theme.primary, data: [65,59,80,81,56,55,40] }]
         },
-        options: { maintainAspectRatio: false }
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: true } }
+        }
     });
     new Chart(document.getElementById("chartjs-pie"), {
         type: "pie",
@@ -82,7 +88,10 @@ document.addEventListener("DOMContentLoaded", function () {
             labels: ["Chrome","Firefox","Safari","Other"],
             datasets: [{ data: [4306,3801,1689,1234], backgroundColor: [window.theme.primary, window.theme.warning, window.theme.danger, window.theme.info] }]
         },
-        options: { maintainAspectRatio: false }
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: true } }
+        }
     });
     new Chart(document.getElementById("chartjs-doughnut"), {
         type: "doughnut",
@@ -90,7 +99,10 @@ document.addEventListener("DOMContentLoaded", function () {
             labels: ["Desktop","Mobile","Tablet"],
             datasets: [{ data: [5342,2435,967], backgroundColor: [window.theme.primary, window.theme.warning, window.theme.danger] }]
         },
-        options: { maintainAspectRatio: false }
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: true } }
+        }
     });
 });
 </script>
